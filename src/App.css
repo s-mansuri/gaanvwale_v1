@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+  font-family: "Inder";
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.brandImage {
+  width: 4rem;
+}
+
+.mainBrand {
+  background-color: #502323;
+  color: white;
+}
+
+.brandContent {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.brandName {
+  position: relative;
+  top: 0.3rem;
+  font-size: 1.4rem;
+  padding-left: 0.6rem;
+  text-decoration: none;
+  color: white;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+
+  > div {
+    width: 33%;
+    height: 87vh;
+  }
+}
+
+.kiChaiContent {
+  display: flex;
+  justify-content: center;
+  background-image: url("./assets/bgChai.jpg");
+  font-size: 2.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.keMasaleContent {
+  display: flex;
+  justify-content: center;
+  background-image: url("./assets/bgMasale.jpg");
+  font-size: 2.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.kaBurgerContent {
+  display: flex;
+  justify-content: center;
+  background-image: url("./assets/bgBurger.jpg");
+  font-size: 2.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.mainFooter {
+  background-color: #502323;
+  color: #ffffff;
+}
+
+.menuItems {
+  position: absolute;
+  right: 0;
+  margin: 0.8rem;
+  > a {
+    padding: 1rem;
+    text-decoration: underline;
+    color: white;
+  }
+}
+
+.aboutContent {
+  width: 100% !important;
+  background-image: url("./assets/bgAbout.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: bottom;
+  > div {
+    padding-bottom: 2rem;
+  }
+}
+
+.contactContent {
+  width: 100% !important;
+  background-image: url("./assets/bgContact.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.chaiMenuContent {
+  width: 100% !important;
+  background-image: url("./assets/bgChaiMenu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: bottom;
+  > div {
+    padding-bottom: 2rem;
+  }
+}
+
+.burgerMenuContent {
+  width: 100% !important;
+  background-image: url("./assets/bgBurgerMenu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: bottom;
+  > div {
+    padding-bottom: 2rem;
+  }
+}
+
+.masaleMenuContent {
+  width: 100% !important;
+  background-image: url("./assets/bgMasaleMenu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: bottom;
+  > div {
+    padding-bottom: 2rem;
+  }
+}
+
+.subMenuLink {
+  background-color: white;
+  height: 10%;
+  border-radius: 10px;
+  width: 80%;
+  border: 1px solid #eab02c;
+  text-decoration: none;
+  color: #502323;
+}
+
+.commonMenuContent {
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}
